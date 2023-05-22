@@ -1,11 +1,11 @@
 # Tic Tac Toe Game
-***
+
 Welcome to the Tic Tac Toe Game! This is a single player game where you play against the computer. The game is played on a 3x3 grid. The goal of the game is to get three in a row. You can get three in a row vertically, horizontally, or diagonally. The game ends when either you or the computer gets three in a row or when the board is full. If the board is full and neither you nor the computer has three in a row, then the game is a tie.
 
 The game was created with Java.
 
 ## Folder Structure
-***
+
 The workspace contains the following folders:
 - `lib` : The folder to maintain dependencies.
 - `bin`: The folder to maintain compiled files.
@@ -19,7 +19,7 @@ Inside the `src` folder, there are four packages:
 - `tools` : This package contains the classes that are used to manage the data files (Write and Read files).
 
 ## How to run the game
-***
+
 To run the game, you need to follow the next steps:
 
 1. Open `src` folder.
@@ -27,7 +27,7 @@ To run the game, you need to follow the next steps:
 3. Open `Presenter.java` class and run it.
 
 ## What you will see?
-***
+
 When you run the game, you will see the next screen:
 
 ![Home Screen](icons/homeScreen-ss.png)
@@ -101,7 +101,7 @@ The last tab that you can see is the **Developer** tab. In this tab, you will se
 
 ![Game Screen Tab 3](icons/gameScreen-Tab3-ss.png)
 
-***
+
 ## IMPORTANT
 
 - All game data is stored in the `data` folder. If you want to check the data, you can open the `game_history.txt` file.
@@ -109,7 +109,7 @@ The last tab that you can see is the **Developer** tab. In this tab, you will se
 
 **That's all! I hope you enjoy the game! :)**
 
-***
+
 ## Author
 
 Jaider Leonardo Castellanos Peña
