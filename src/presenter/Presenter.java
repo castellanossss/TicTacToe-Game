@@ -321,6 +321,6 @@ public class Presenter implements ActionListener {
     }
 
     public static void main(String[] args) throws IOException {
-        Presenter tuki = new Presenter();
+        Presenter init = new Presenter();
     }
 }
