@@ -320,7 +320,13 @@ public class Presenter implements ActionListener {
         homeScreen.tableRowInfo(readTxtFile.read(Constants.PATH));
     }
 
-    public static void main(String[] args) throws IOException {
-        Presenter init = new Presenter();
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            try {
+                new Presenter();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
 }
